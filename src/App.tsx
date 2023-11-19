@@ -1,5 +1,6 @@
 import "./App.scss";
 import Header from "./components/Header";
+import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
 import Careers from "./components/Careers"
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <Header></Header>
+      <Home></Home>
       <AboutUs></AboutUs>
       <Services></Services>
       <Careers></Careers>
