@@ -1,0 +1,91 @@
+#careers {
+    margin-top: 75px;
+    display: block;
+
+    .hiring {
+        border-top: solid 5px #999999;
+        border-right: solid 5px #999999;
+        border-bottom: solid 5px #999999;
+        width: 100%;
+
+        h1 {
+            font-family: "Figure things", Arial, Helvetica, sans-serif;
+            font-size: 6em;
+            margin: 20px;
+        }
+
+        p,
+        li {
+            margin: 20px;
+            font-size: 1.5em;
+        }
+    }
+
+    .application-portal {
+        border-top: solid 5px #999999;
+        border-left: solid 5px #999999;
+        border-bottom: solid 5px #999999;
+        width: 100%;
+        margin-top: 20px;
+
+        h1 {
+            font-family: "Figure things", Arial, Helvetica, sans-serif;
+            font-size: 5.5em;
+            margin: 20px;
+        }
+    }
+
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2.5s;
+    animation-fill-mode: both;
+
+    form{
+        margin-left: 30px;
+    } 
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        margin: 5px;
+        max-width: 600px; /* Adjust the max-width to your preference */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+
+    button {
+        background-color: #999;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        margin: 8px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    @media only screen and (min-width: 850px) {
+        display: flex;
+        flex: 1;
+        column-gap: 30px;
+
+        .company-description {
+            margin: 20px;
+            max-width: 45%;
+        }
+
+        .application-portal {
+            margin-top: 0px;
+        }
+    }
+}

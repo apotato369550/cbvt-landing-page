@@ -1,0 +1,89 @@
+#contact {
+    margin-top: 75px;
+    display: block;
+
+    .contact-form {
+        border-top: solid 5px #999999;
+        border-right: solid 5px #999999;
+        border-bottom: solid 5px #999999;
+        width: 100%;
+        margin-bottom: 7px;
+
+        h1 {
+            font-family: "Figure things", Arial, Helvetica, sans-serif;
+            font-size: 6em;
+            margin: 20px;
+        }
+
+    }
+
+    .contact-us {
+        border-top: solid 5px #999999;
+        border-left: solid 5px #999999;
+        border-bottom: solid 5px #999999;
+
+        h1 {
+            font-family: "Figure things", Arial, Helvetica, sans-serif;
+            font-size: 6em;
+            margin: 20px;
+        }
+
+        p {
+            margin: 20px;
+            font-size: 2em;
+        }
+    }
+
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-top: 7px;
+        margin-left: 15px;
+        max-width: 625px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    textarea {
+        margin: 15px;
+        width: 100%;
+        max-width: 625px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    button {
+        background-color: #999;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        margin: 8px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    @media only screen and (min-width: 850px) {
+        display: flex;
+        flex: 1;
+
+        .contact-form {
+            margin: 20px;
+            max-width: 45%;
+        }
+    }
+}
