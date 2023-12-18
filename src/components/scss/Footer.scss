@@ -1,0 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+footer {
+    background-color: #342e2e;
+    color: white;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+
+    p {
+        margin-right: 50px;
+    }
+
+    .jay {
+        color: white;
+        font-weight: 650;
+        text-decoration: underline;
+    }
+}

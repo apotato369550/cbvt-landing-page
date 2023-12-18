@@ -24,7 +24,7 @@ function Careers() {
         // alert if data successfully uploaded/emailed
         console.log(formData);
     };
-
+    
     return (
         <section id="careers">
             <div className="hiring">
@@ -40,6 +40,7 @@ function Careers() {
 
             <div className="application-portal">
                 <h1>Submit your application here</h1>
+                <p>(Coming Soon)</p>
                 <form onSubmit={handleSubmit}>
                     <label>
                         Name:
