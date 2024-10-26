@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import "../components/scss/Careers.scss";
+import "./scss/Careers.Scss";
 
 function Careers() {
     const [formData, setFormData] = useState({
